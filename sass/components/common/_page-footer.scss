@@ -1,0 +1,11 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $bg-hero-futter;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+}

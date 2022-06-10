@@ -1,0 +1,28 @@
+.container-address {
+  margin-right: 70px;
+  min-width: 231px;
+}
+
+.address-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-list__link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+
+  transition: color 250ms $typical-time-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &--white {
+    color: $primery-white-color;
+  }
+}
